@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.card {
+    height: auto;
+    width: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.card img {
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
+.card .content {
+    padding: 15px;
+    color: #ffffff;
+}
+
+.controlls {
+    margin: 10px 0;
+}
+
+.controlls a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.controlls .fa {
+    color: #ffffff;
+    height: 60px;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 10px;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #024604; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 10px;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  background-repeat: no-repeat;
+  padding: 5px 10px 5px 40px;
+  margin: 10px 0;
+}
+
+.submitbtn {
+  background-color: #4CAF50; /* Green */
+  font-size: 16px;
+  border-radius: 500px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin: 10px 0 10px auto;
+}
+
+.submitbtn:hover {
+  background-color: #024604; /* Green */
+  font-size: 16px;
+  border-radius: 500px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin: 10px 0 10px auto;
+}
+
+.loginbtn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 11px 32px 9px;
+    margin:  50px auto;
+    display: block;
+}
+
+.loginbtn:hover {
+  background-color: #024604; /* Green */
+  border: none;
+  color: white;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 11px 32px 9px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
